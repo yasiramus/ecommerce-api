@@ -1,0 +1,31 @@
+#packages use
+1.bcrypt //hashing password
+2. cloudinary //image upload learn more on this
+3. cookie-parser
+4. cors
+5. dotenv
+6. express
+7. mongoose 
+8. multer will be use for saving image in the cloud data
+9. jsonwebtoken
+10. typescript
+11. ts-node @types/node @types/express --save-dev
+12. @types/cors @types/cookie-parser @types/mongoose
+
+ Express, TypeScript, ts-node, and 
+ the TypeScript declarations for Express
+
+ yarn add 
+ express 
+ typescript 
+ ts-node @types/node @types/express --save-dev
+
+connecting to the database (mongodb database)
+1. database setup
+2. create express app
+
+mongodb+srv://yasirayusif:<yasirayusif>@cluster0.s6vc7.mongodb.net/
+
+in order to run typeScript file directly 
+i added "dev": "nodemon src/server.ts" to scripts and remove the type which i set to module in package.json
+
