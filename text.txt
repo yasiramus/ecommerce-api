@@ -29,3 +29,5 @@ mongodb+srv://yasirayusif:<yasirayusif>@cluster0.s6vc7.mongodb.net/
 in order to run typeScript file directly 
 i added "dev": "nodemon src/server.ts" to scripts and remove the type which i set to module in package.json
 
+#face a challenge with the dotenv file insted of equal to i was using a semi colon
+also i unstall dotenv and install  @dotenvx/dotenvx --save
