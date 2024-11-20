@@ -9,8 +9,8 @@
 	"scripts": {
 		"start": "src/server.ts",
 		"build": "tsc",
-		"dev": "nodemon server.ts",
-		"dev-env": "dotenvx run -- nodemon server.ts",
+		"dev": "nodemon src/server.ts",
+		"dev-env": "dotenvx run -- nodemon src/server.ts",
 		"serve": "node dist/index.js"
 	},
 	"dependencies": {
@@ -19,7 +19,6 @@
 		"@types/cors": "^2.8.17",
 		"@types/dotenv": "^8.2.3",
 		"@types/express": "^5.0.0",
-		"@types/mongoose": "^5.11.97",
 		"@types/node": "^22.9.0",
 		"bcrypt": "^5.1.1",
 		"cloudinary": "^2.5.1",
